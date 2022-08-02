@@ -20,3 +20,19 @@ public class Solution : VersionControl {
         return rightPointer;
     }
 }
+
+
+// better solution
+
+public class Solution : VersionControl {
+    public int FirstBadVersion(int n) {
+        var leftPointer = 1, rightPointer = n;
+        while(rightPointer > leftPointer)
+        {
+            var pivot = leftPointer + ((rightPointer - leftPointer)/2);
+            if(IsBadVersion(pivot)) rightPointer = pivot;
+            else leftPointer = pivot + 1;
+        }
+        return rightPointer;
+    }
+}
