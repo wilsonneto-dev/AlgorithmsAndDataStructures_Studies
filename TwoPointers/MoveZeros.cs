@@ -22,16 +22,11 @@ public class Solution1 {
 // 22/08/08
 // second approach => O(N) => pointer and loop => 13 minutes
 
-public class Solution2 {
+public class Solution {
     public void MoveZeroes(int[] nums) {
         int left = 0;
         for(int idx = 0; idx < nums.Length; idx++)
-            if(nums[idx] != 0)
-            {
-                if(left != idx)
-                    nums[left] = nums[idx];
-                left++;
-            }
+            if(nums[idx] != 0) nums[left++] = nums[idx];
         while(left < nums.Length)
             nums[left++] = 0;
     }
