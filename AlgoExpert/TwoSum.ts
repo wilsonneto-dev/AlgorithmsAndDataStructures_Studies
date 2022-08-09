@@ -1,3 +1,5 @@
+// https://www.algoexpert.io/questions/two-number-sum
+
 // first approach => O(N) / O(N) => 18 minutes
 
 export function twoNumberSum(array: number[], targetSum: number) {
