@@ -14,3 +14,17 @@ public class Solution {
         return newArray;
     }
 }
+
+// 22/08/09
+
+export function sortedSquaredArray(array: number[]) {
+  let left = 0, right = array.length - 1;
+  let ordered: number[] = [];
+  let orderedIdx = array.length - 1;
+  while(left <= right)
+    if(Math.pow(array[left], 2) > Math.pow(array[right], 2))
+      ordered[orderedIdx--] = Math.pow(array[left++], 2);
+    else 
+      ordered[orderedIdx--] = Math.pow(array[right--], 2);
+  return ordered;
+}
