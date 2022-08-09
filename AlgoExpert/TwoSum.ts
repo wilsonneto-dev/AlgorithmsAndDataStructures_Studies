@@ -1,4 +1,4 @@
-// first approach => O(N) / O(1) => 18 minutes
+// first approach => O(N) / O(N) => 18 minutes
 
 export function twoNumberSum(array: number[], targetSum: number) {
   let missingValues: { [key: number]: boolean} = {};
