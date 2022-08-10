@@ -2,13 +2,11 @@
 
 public class Solution {
     public ListNode MiddleNode(ListNode head) {
-        var final = head;
-        var middle = head;
-        var idx = 0;
-        while(final.next is not null)
+        ListNode final = head, middle = head;
+        while(final?.next is not null)
         {
-            final = final.next;
-            if(idx++ % 2 == 0) middle = middle.next;
+            final = final.next?.next;
+            middle = middle.next;
         }
         return middle;
     }
