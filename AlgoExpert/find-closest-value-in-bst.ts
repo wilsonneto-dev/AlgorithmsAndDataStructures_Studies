@@ -1,6 +1,6 @@
 // https://www.algoexpert.io/questions/find-closest-value-in-bst
 
-// 22/08/11 -> t = O(k) / s = O(k) -> 40 minutes
+// 22/08/11 -> t = O(log(N)) / s = O(log(N)) -> 40 minutes
 export function findClosestValueInBst(tree: BST, target: number, closest: number | null = null): number|null  {
   if(tree.value == target) return tree.value;
   
@@ -12,7 +12,7 @@ export function findClosestValueInBst(tree: BST, target: number, closest: number
   return findClosestValueInBst(next, target, closest);
 }
 
-// t = O(K) / s = O(1)
+// t = O(log(N)) / s = O(1)
 export function findClosestValueInBst(tree: BST, target: number): number|null  {
   let closest: number | null = null, 
     current: BST | null = tree;
