@@ -12,7 +12,7 @@
 - ✅ 876. Middle of the Linked List
 - ✅ 19. Remove Nth Node From End of List
 - ✅ 3. Longest Substring Without Repeating Characters
-- [ ] 567. Permutation in String
+- ✅ 567. Permutation in String
 - [ ] 733. Flood Fill
 - [ ] 695. Max Area of Island
 - [ ] 617. Merge Two Binary Trees
