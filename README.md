@@ -1,14 +1,14 @@
 ## Sprint #01: Leet Code (14 days study plan)
 
-- [x] 704. Binary Search
-- [x] 278. First Bad Version
-- [x] 35. Search Insert Position
-- [x] 977. Squares of a Sorted Array
-- [x] 189. Rotate Array
-- [x] 283. Move Zeroes
-- [x] 167. Two Sum II - Input Array Is Sorted
-- [x] 344. Reverse String
-- [x] 557. Reverse Words in a String III
+- ✅ 704. Binary Search
+- ✅ 278. First Bad Version
+- ✅ 35. Search Insert Position
+- ✅ 977. Squares of a Sorted Array
+- ✅ 189. Rotate Array
+- ✅ 283. Move Zeroes
+- ✅ 167. Two Sum II - Input Array Is Sorted
+- ✅ 344. Reverse String
+- ✅ 557. Reverse Words in a String III
 - [ ] 876. Middle of the Linked List
 - [ ] 19. Remove Nth Node From End of List
 - [ ] 3. Longest Substring Without Repeating Characters
@@ -33,13 +33,13 @@
 
 ## Sprint #02: AlgoExpert Easy ones
 
-- [x] Two Number Sum
-- [x] Validate Subsequence
-- [x] Sorted Squared Array
-- [x] Tournament Winner
-- [x] Non-Constructible Change
-- [x] Find Closest Value In BST
-- [x] Branch Sums
+- ✅ Two Number Sum
+- ✅ Validate Subsequence
+- ✅ Sorted Squared Array
+- ✅ Tournament Winner
+- ✅ Non-Constructible Change
+- ✅ Find Closest Value In BST
+- ✅ Branch Sums
 - [ ] Node Depths
 - [ ] Depth-first Search
 - [ ] Minimum Waiting Time
@@ -61,5 +61,5 @@
 
 ## Trainnings
 
-- [x] AlgoMania algorithms trainning
+- ✅ AlgoMania algorithms trainning
 - [ ] AlgoExpert Data Structures crash course
