@@ -58,3 +58,8 @@
 - [ ] Run-Length Encoding
 - [ ] Generate Document
 - [ ] First Non-Repeating Character
+
+## Trainnings
+
+- [x] AlgoMania algorithms trainning
+- [ ] AlgoExpert Data Structures crash course
