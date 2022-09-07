@@ -42,3 +42,22 @@ public class Solution {
         return copy;
     }
 }
+
+// eecursively way / DFS -> 22.09.6 - O(n) / O(n)
+
+public class Solution {
+    public int[][] FloodFill(int[][] image, int sr, int sc, int color) {
+        if(image[sr][sc] == color)
+            return image;
+        
+        var originalColor = image[sr][sc];
+        image[sr][sc] = color;
+        
+        if(sr > 0 && image[sr-1][sc] == originalColor) FloodFill(image, sr-1, sc, color);
+        if(sr < (image.Length - 1) && image[sr+1][sc] == originalColor) FloodFill(image, sr+1, sc, color);
+        if(sc > 0 && image[sr][sc-1] == originalColor) FloodFill(image, sr, sc-1, color);
+        if(sc < (image[0].Length - 1) && image[sr][sc+1] == originalColor) FloodFill(image, sr, sc+1, color);
+        
+        return image;
+    }
+}
