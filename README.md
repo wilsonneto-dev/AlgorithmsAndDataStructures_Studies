@@ -14,7 +14,7 @@
 - ✅ 3. Longest Substring Without Repeating Characters
 - ✅ 567. Permutation in String
 - ✅ 733. Flood Fill (to do it again in a recursive DFS approach)
-- [ ] 695. Max Area of Island
+- ✅ 695. Max Area of Island
 - [ ] 617. Merge Two Binary Trees
 - [ ] 116. Populating Next Right Pointers in Each Node
 - [ ] 542. 01 Matrix
